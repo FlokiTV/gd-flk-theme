@@ -1,4 +1,6 @@
-
+const loop = delta =>{
+  console.log(delta)
+}
 
 let lastTime = 0;
 function animate(timestamp) {
@@ -21,6 +23,3 @@ for (let i = 0; i < mosaics.length; i++) {
   }
 }
 
-const loop = delta =>{
-  console.log(delta)
-}
