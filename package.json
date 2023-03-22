@@ -1,0 +1,17 @@
+{
+  "name": "gd-flk-theme",
+  "version": "1.0.0",
+  "description": "past this theme on developer tool console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.js --bundle --outfile=./dist/script.min.js --target=chrome58,firefox57,safari11,edge16 --minify --sourcemap",
+    "dev": "esbuild index.js --bundle --outfile=./script.dev.js --target=chrome58,firefox57,safari11,edge16 --watch --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.17.12"
+  }
+}
